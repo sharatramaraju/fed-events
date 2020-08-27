@@ -7,8 +7,36 @@
 
   <body>
     <div id="app"></div>
-    <button id="btn1">Click Here</button>
-    <button id="btn2">Click Here 2</button>
+    <button id="btn1">Accept</button>
+    <button id="btn2">Decline</button>
+
+    <form id="myForm">
+      <input id="fname" type="text" name="fname" placeholder="Please enter your name"/><br />
+      <input id="lname" type="text" name="lname" value="Nolan" /><br />
+      <input id="ch" type="checkbox" checked />Remember me<br />
+      <p/>
+      Select preferred time:</br>
+      <input id="rb1" type="radio" />Morning<br/>
+      <input id="rb2" type="radio" />Noon<br/>
+      <input id="rb3" type="radio" />Evening<br />
+      <p/>
+      <p>Select State:</p>
+      <select>
+        <option value='IL'>Illinois</option>
+        <option value='IA' selected>Iowa</option>
+        <option value='WI'>Wisconsin</option>
+      </select>
+      <p/>
+
+      <textarea placeholder="Please leave your comments here"></textarea>
+      </textarea></br>
+
+      <p/>
+      <input type="submit" value="Submit form"/>
+      <input type="reset"/>
+    </form>
+
     <script src="src/index.js"></script>
+  </p>
   </body>
 </html>
