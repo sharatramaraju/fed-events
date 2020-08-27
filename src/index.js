@@ -31,4 +31,14 @@ function handleSubmit(event) {
   event.preventDefault();
   console.log("Form was submitted");
   console.log(document.getElementById("fname").value);
+  console.log(document.getElementById("lname").value);
+
+  console.log(document.getElementById("ch").checked);
+
+  console.log(document.getElementById("rb1").checked);
+  console.log(document.getElementById("rb2").checked);
+  console.log(document.getElementById("rb3").checked);
+
+  console.log(document.getElementById("state").value);
+  console.log(document.getElementById("comments").value);
 }
