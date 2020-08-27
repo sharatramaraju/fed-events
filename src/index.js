@@ -35,9 +35,21 @@ function handleSubmit(event) {
 
   console.log(document.getElementById("ch").checked);
 
-  console.log(document.getElementById("rb1").checked);
-  console.log(document.getElementById("rb2").checked);
-  console.log(document.getElementById("rb3").checked);
+  console.log(
+    document.getElementById("rb1").getAttribute("value"),
+    ":",
+    document.getElementById("rb1").value
+  );
+  console.log(
+    document.getElementById("rb2").getAttribute("value"),
+    ": ",
+    document.getElementById("rb1").value
+  );
+  console.log(
+    document.getElementById("rb3").getAttribute("value"),
+    ": ",
+    document.getElementById("rb1").value
+  );
 
   console.log(document.getElementById("state").value);
   console.log(document.getElementById("comments").value);
